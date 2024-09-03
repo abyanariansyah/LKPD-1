@@ -1,0 +1,35 @@
+body {
+    font-family: Arial, sans-serif;
+    height: 100vh;
+    background-color: #f0f0f0;
+}
+
+#alertBox {
+    display: none;
+    background-color: #ff0015;
+    color: white;
+    padding: 20px;
+    margin-top: 20px;
+    width: 300px;
+    text-align: center;
+}
+
+#alertBox.show {
+    display: block;
+}
+
+#countdown {
+    font-weight: bold;
+}
+
+#alertButton {
+    background-color: #28a745;
+    color: white;
+    padding: 10px 20px;
+    border: none;
+    font-size: 16px;
+}
+
+#alertButton:hover {
+    background-color: #218838;
+}

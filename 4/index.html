@@ -1,0 +1,37 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Image and Opacity Selector</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+
+<body>
+    <div class="container">
+        <h1>Image and Opacity Selector</h1>
+        <div class="controls">
+            <label for="imageSelect">Choose an image:</label>
+            <select id="imageSelect">
+                <option value="img/img1.jpg">Image 1</option>
+                <option value="img/img2.jpg">Image 2</option>
+                <option value="img/img3.jpeg">Image 3</option>
+            </select>
+
+            <label for="opacitySelect">Select opacity:</label>
+            <select id="opacitySelect">
+                <option value="1">1.0</option>
+                <option value="0.5">0.5</option>
+                <option value="0.2">0.2</option>
+            </select>
+        </div>
+        <div class="image-container">
+            <img id="displayImage" src="img/img1.jpg" alt="Selected Image">
+        </div>
+    </div>
+
+    <script src="script.js"></script>
+</body>
+
+</html>
